@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undertake</title>
+
+  <!-- Estilos locales -->
+  <link rel="stylesheet" href="css/estilos.css" />
+
+  <!-- AOS (animaciones) desde CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<!-- ENCABEZADO -->
+<header>
+  <div class="logo-container" data-aos="fade-down">
+    <img src="img/logo.jpg" alt="Logo de la app" class="logo-img" />
+  </div>    
+  <nav data-aos="fade-down" data-aos-delay="200">
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="#testimonios">Testimonios</a>
+  </nav>
+</header>
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <section id="inicio" class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h1>Nuestra PWA</h1>
+      <p>Ilustración de el incio de Undertake</p>
+      <a href="nosotros.html" class="btn">¿Quieres saber más?</a>
+    </div>
+    <div class="hero-image">
+      <img src="img/PWA.png" alt="Imagen de Inicio" />
+    </div>
+  </section>
+
+  <!-- FUNCIONALIDADES -->
+  <section id="funcionalidades" data-aos="fade-up">
+    <h2>Funcionalidades</h2>
+    
+    <div class="funcionalidades-imagenes">
+      <div class="funcionalidad-item">
+        <ul>
+          <li>Emprendedores</li>
+        </ul>
+        <img src="img/emprendedores.png" alt="Imagen 1">
+        <p class="descripcion">Se encarga de agregar, editar, eliminar y actualizar los emprendedores.</p>
+      </div>
+      <div class="funcionalidad-item">
+        <ul>
+          <li>Financieras</li>
+        </ul>
+        <img src="img/financieras.png" alt="Imagen 2">
+        <p class="descripcion">Este agrega, edita, elimina y actualiza las financieras que se han sumado a financiar a emprendedores.</p>
+      </div>
+      <div class="funcionalidad-item">
+        <ul>
+          <li>Programas</li>
+        </ul>
+        <img src="img/programas.png" alt="Imagen 3">
+        <p class="descripcion">La siguiente Gestión, agrega, verifica, elimina y actualiza programas disponibles dentro de las financieras</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" data-aos="fade-up">
+    <h2>Testimonios</h2>
+    <blockquote>“Como emprendedora, esta app ha sido una herramienta indispensable. Pude registrar mi emprendimiento fácilmente, acceder a financieras confiables y aplicar a programas que realmente se adaptaban a mis necesidades. Todo en un solo lugar y con una experiencia súper fluida. 
+
+      Me sorprendió lo intuitiva que es la plataforma, incluso para alguien que no tiene muchos conocimientos técnicos. Gracias a ella, logré contactar con una financiera que creyó en mi idea y hoy mi negocio está en marcha. 
+  
+      Además, me encanta que puedo editar o actualizar mi información en cualquier momento, y que hay opciones variadas de programas según mi perfil. Sin duda, una solución que empodera a los emprendedores desde el primer paso.”</blockquote>
+    <cite>— Sarahí Flores</cite>
+  </section>
+
+  <!-- Redirige al sitio web -->
+  <section id="prueba-web">
+    <div class="contenedor-llamado">
+      <h2>¿Listo para comenzar tu camino emprendedor?</h2>
+      <p>Explora todas las funcionalidades que hemos diseñado para ti. ¡Tu éxito está a un clic de distancia!</p>
+      <a href="https://emprend.netlify.app/inicio" target="_blank" class="btn-probar">
+        ¡Prueba nuestra app ahora!
+      </a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO + FOOTER JUNTOS -->
+  <section id="contacto-footer" data-aos="fade-up" class="contacto-footer">
+    <h2>Contáctanos</h2>
+    <div class="footer-contenido">
+      <p><strong>Correo:</strong> <a href="mailto:groupasa2025@gmail.com">groupasa2025@gmail.com</a></p>
+      <p><strong>Autores:</strong> Angela González, Nohemí Gaitán, Anleska Obando</p>
+      <p>&copy; 2025 Undertake</p>
+    </div>
+  </section>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- JS Local -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
